@@ -2,6 +2,26 @@
 
 ##how to start
 
+### T1.java
+```java
+public class T1 implements Task{
+	@Override
+	public void execute() {
+		System.out.println("T1");
+	}
+}
+```
+### T2.java
+```java
+public class T2 implements Task{
+	@Override
+	public void execute() {
+		System.out.println("T2");
+	}
+}
+```
+
+### start.java
 ```java
 public class Start {
 	public static void main(String[] args) {
